@@ -1,0 +1,94 @@
+body{
+    background-color:lightsalmon;
+}
+.body{
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    width: 70em;
+    position: absolute;
+    display: contents;
+}
+.intro{
+    background-color:lightyellow;
+    border-radius: 0.5em;
+    font-size: medium;
+    font-weight: lighter;
+}
+.cart{
+    padding: 1em;
+    width: 98%;
+    margin-top: 1em;
+    background-color: orange;
+    border-radius: 0.5em;
+}
+input{
+    width: 10%;
+    text-align: center;
+}
+.Tittle{
+    text-align: center;
+    background-color: white;
+    color: blueviolet;
+    text-decoration: dotted;
+}
+.small_Pizza{
+    margin: 1em;
+    padding: 1em;
+    border: 8px solid orange;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+.input > input[type="text"]{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.table{
+    background-color:lightyellow;
+    border-radius: 0.5em;
+}
+
+.messege{
+    color: green;
+    background-color: black;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+td{
+    text-align: center;
+    vertical-align: bottom;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;
+}
+.a1{
+    flex: 1;
+    margin: auto;
+    display: flex;
+}
+.display{
+    display: flex;
+}
+.a2{
+    margin: 1em;
+    padding: 1em;
+}
+.aa{
+    margin-left: 50%;
+    display: flex;
+}
+@media (min-width: 900px) {
+    .Pizzas1{
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+    /* width: 100%; */
+    /* max-width: fit-content; */
+    }
+}
